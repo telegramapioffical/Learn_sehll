@@ -1,9 +1,8 @@
 #!/bin/bash
 
-# Exercise 6
+# Exercise 7
 
-read -p "Enter a : name of a file: " USER
-
+USER=$1
 
 if [ -d $USER ]
 then
